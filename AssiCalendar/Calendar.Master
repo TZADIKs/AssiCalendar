@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Calendar.Master.cs" Inherits="AssiCalendar.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="master">
+            <table class="masterTable">
+                <tr>
+                    <td>
+                        <h2 style="font-family: 'Fugaz One', cursive">Home Page: </h2>
+                        <a href="MainPage.aspx">
+                            <img src="../pics/logo.png" class="logo">
+                        </a>
+                    </td>
+                    <td>
+                        <div style="display:flex; justify-content: space-around">
+                            <h1 class="heading">September Calendar</h1>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="display: flex; justify-content: flex-end">
+                            <img src="../pics/september.png" class="september">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿body {
+    margin: 0;
+    background-color: #76b5c5;
+}
+p{
+    font-family: Aharoni, cursive;
+}
+.logo {
+    width:15%;
+    height:15%;
+}
+.master {
+    background-color: #1e81b0;
+}
+.masterTable {
+    table-layout: fixed;
+    width: 100%;
+}
+.heading {
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+}
+.september {
+    width: 30%;
+    height: 30%;
+}
+.calendarTable, .thCal, .tdCal {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top:50px;
+    text-align:center;
+}
+.calendarTable {
+    table-layout: fixed;
+    width:70%;
+}
+.thCal {
+    height: 40px;
+    font-family: 'Fugaz One', cursive;
+}
+.tdCal {
+    height: 60px;
+    font-family: 'Fugaz One', cursive;
+}
+.tdCal:hover {
+    background-color: #abdbe3;
+}
+.rimon {
+    width: 40%;
+    height: 40%;
+    float: right;
+}
+.rosh {
+    font-family: 'Fugaz One', cursive;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.rosh:hover{
+    background-color:darkred;
+}
+.kipur {
+    font-family: 'Fugaz One', cursive;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.kipur:hover {
+    background-color: cornsilk;
+}
+.sukkot {
+    font-family: 'Fugaz One', cursive;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.sukkot:hover{
+    background-color:lightgreen;
+}
+.shabat {
+    background-color: #bea925;
+    height: 60px;
+    font-family: 'Fugaz One', cursive;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+    .shabat:hover {
+        background-color: #EED42F;
+        height: 60px;
+        font-family: 'Fugaz One', cursive;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
